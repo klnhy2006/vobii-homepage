@@ -10,7 +10,8 @@ html,body{
 
 
 
-
+/*below are for the banner and anything that is fixed on page*/
+/*strip of blue banner*/
 .banners{
 	background-color:rgba(16, 140, 255,0.6);
 	width:100%;
@@ -18,6 +19,7 @@ html,body{
 	position:fixed;
 	z-index:3;
 }
+/*vobii logo on left side of banner and the fb icon on the right*/
 #vobii_logo_banner,.fb img{
 	display:inline-block;
 	height:20px;
@@ -33,6 +35,7 @@ html,body{
 #vobii_logo_banner:hover{
 	opacity: 0.7;
 }
+
 /*ul*/
 .banner{
 	padding:0;
@@ -49,6 +52,8 @@ html,body{
 	bottom:17px;
 	right:15px;
 }
+
+/*review session section*/
 #review{
 	padding:17px 10px;
 }
@@ -62,6 +67,8 @@ html,body{
 #review:hover{
 	background-color:#10AAFF;
 }
+
+/*login with fb section*/
 .fb{
 	background-color:#3B5998;
 	padding:5px 5px;
@@ -74,8 +81,7 @@ html,body{
 	text-decoration:none;
 	vertical-align:middle;
 	position:relative;
-	bottom:2.5px;
-	
+	bottom:2.5px;	
 }
 .fb:hover{
 	background-color:#5270C4;
@@ -86,6 +92,8 @@ html,body{
 	top:19px;
 	left:-1.5px;
 }
+
+/*when minimizing window*/
 .menu{
 	border:1px solid #E6EBEF;
 	border-radius:10%;
@@ -109,8 +117,7 @@ html,body{
     margin: 5px 4px;
 }
 
-
-
+/*search section*/
 #magnifying-glass
 {
 	font-size:20px;
@@ -146,6 +153,8 @@ html,body{
 #magnifying-glass:hover::before{
 	background: rgba(255,255,255,0.9);
 }
+
+/*explore*/
 #tilted{
 	background-color:white;
 	width:250px;
@@ -174,7 +183,7 @@ html,body{
 
 
 
-
+/*for the top portion when banner isn't showing*/
 .transition{
 	width:100%;
 	height:50px;
@@ -185,7 +194,7 @@ html,body{
 }
 
 
-
+/*for the top section with changing background*/
 .top_blue{
 	height:100%;
 	width:100%;
@@ -231,6 +240,8 @@ html,body{
 		background-position: 0% 50%
 	}
 }
+
+/*integral sign*/
 .integral{
 	font-size:700px;
 	font-style:italic;
@@ -244,6 +255,8 @@ html,body{
 	padding:0 auto;
 	z-index:1;
 }
+
+/*background circle*/
 .circle{
 	height:600px;
 	width:600px;
@@ -258,6 +271,8 @@ html,body{
 	background-color:rgba(255,255,255,0.5);
 	box-shadow:0 0 50px rgba(127, 121, 121,0.5);
 }
+
+/*spinning portion*/
 .spinning{
 	border:50px solid rgba(255,255,255,0.7);
 	border-top:50px solid rgba(255,255,255,1);
@@ -279,6 +294,8 @@ html,body{
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
 }
+
+/*ace math in 5 hrs portion*/
 .circle h3,.circle h2{
 	margin:auto;
 	width:100%;
@@ -294,6 +311,8 @@ html,body{
 	margin-top:150px;
 	font-size:400%;
 }
+
+/*sign up and log in wedges*/
 .top_blue a,#logging_in{
 	position:relative;
 	z-index:3;
@@ -323,19 +342,15 @@ html,body{
 
 
 
-
+/*second white portion*/
 .second_white{
 	background-color:white;
 	margin:0;
 	width: 100%;
     height: 100%;
 }
-table{
-	width:100%;
-}
-th,td{
-	text-align:center;
-}
+
+/*effecient section*/
 .second_white h3{
 	font-family:'Lato';
 	text-align:center;
@@ -345,6 +360,14 @@ th,td{
 	margin-top:175px;
 	margin-bottom: 75px;
 }
+
+/*everything written in a table*/
+table{
+	width:100%;
+}
+th,td{
+	text-align:center;
+}
 .second_white th{
 	color:#108CFF;
 	font-family:'Lato';
@@ -352,9 +375,6 @@ th,td{
     line-height: 80px;
     font-family: Lato;
     font-weight: bold;
-}
-#heart{
-	font-size:600%;
 }
 .second_row{
 	font-family:'Dancing Script';
@@ -367,15 +387,19 @@ th,td{
 	font-size:100%;
 	font-weight:100;
 }
+#heart{
+	font-size:600%;
+}
 
 
-
+/*video section*/
 .video{
 	width:100%;
 	height:100%;
 }
 
 
+/*log in section*/
 .log_in{
 	overflow:hidden;
 	width:100%;
@@ -447,7 +471,7 @@ th,td{
 .log_in_tutor input[type=submit]:hover{
 	background-color:#7CC1FF;
 }
-.check_box{
+.check_box{ /*for student*/
 	text-decoration:none;
 	color:#989898;
 }
@@ -458,13 +482,13 @@ th,td{
 .check_box:hover,.check_box_t:hover{
 	text-decoration:underline;
 }
-.empty{
+.empty{ /*hr for student section*/
 	border:1px solid #F3F3F3;
 	height:0;
 	width:40%;
 	margin:auto;
 }
-.log_in_student button{
+.log_in_student button{ /*sign up button*/
 	margin-top:25px;
 	height:30px;
 	min-width:40%;
@@ -474,11 +498,10 @@ th,td{
 .log_in_student button:hover{
 	background-color:#3B5998;
 }
-.log_in_student img{
+.log_in_student img{ /*fb image*/
 	height:23px;
 	margin-right:55px;
-	margin-top:3.5px;
-	
+	margin-top:3.5px;	
 }
 .log_in_student button a{
 	text-decoration:none;
@@ -489,7 +512,7 @@ th,td{
 	bottom:7px;
 	right:5px;
 }
-#copy_right{
+#copy_right{ /*end of tutor section*/
 	background-color:#E7F4FF;
 	text-align:right;
 	color:#9EA1A5;
@@ -503,7 +526,7 @@ th,td{
 
 
 
-
+/*for the last comment section*/
 .wrapper{
 	width:100%;
 	background: linear-gradient(141deg, #0FA5EC 0%, #0FCFCD 51%,#0FECB8 75%);
@@ -517,19 +540,21 @@ th,td{
 	padding-top:80px;
 	box-sizing:border-box;
 }
+/*when minimizing window*/
 @media (max-width: 768px) {
   .comments {
-    column-count: 2;
+        column-count: 2;
   }
   .banner li{
-	  display:none;
+	display:none;
   }
 }
 @media (min-width: 768px){
-	.menu{
-		display:none;
+   .menu{
+	display:none;
 	}
 }
+/*waterfall quotes*/
 .quotes{
 	width:100%;
 	display:inline-block;
